@@ -1,0 +1,15 @@
+.footer{
+    margin-top: 7rem;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 5rem;
+}
+
+.footer h2{
+    font-family: var(--secondary-font);
+    font-size: var(--normal-font-size);
+    font-weight: 700;
+    list-style: 2px;
+    margin-top: 20px;
+    padding: 30px;
+}

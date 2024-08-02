@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerson Knutz - FrontEnd Developer</title>
+
+    <link rel="stylesheet" href="src/css/font-awesome.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/variable.css">
+
+    <!--Global-->
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/sections/header.css">
+    <link rel="stylesheet" href="src/css/sections/home.css">
+    <link rel="stylesheet" href="src/css/sections/about.css">
+    <link rel="stylesheet" href="src/css/sections/skills.css">
+    <link rel="stylesheet" href="src/css/sections/projects.css">
+    <link rel="stylesheet" href="src/css/sections/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between center-align-items">
+                <a href="#">
+                    <h1 class="logo">GK</h1>
+                </a>
+
+                <nav>
+                    <input id="hamburguer-menu" type="checkbox">
+
+                    <label for="hamburguer-menu">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>                  
+                    <ul>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen center-align-items">
+                <div class="home-text">
+                    <p>Hello 🖖,</p>
+                    <h1>I'm Gerson Knutz</h1>
+                    <h2>Frontend Developer</h2>
+                
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/gerson-knutz-734463172/" class="outer-shadow" title="Go to my linkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://wa.me/353832099994" class="outer-shadow" title="Send me message on WhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://github.com/GersonKnutz" class="outer-shadow" title="Go to my GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gerson_knutz/" class="outer-shadow" title="Go to my Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img src="src/image/profile-pictures.png" alt="profile pictures" class="outer-shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about-me section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About me</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="image-about-me">
+                    <div class="img-box inner-shadow">
+                        <img src="src/image/profile-pictures.png" alt="profile pictures" class="outer-shadow">
+                    </div>    
+                </div>
+                <div class="information-about-me">
+                    <p>
+                        <strong>Hello! My name is Gerson Knutz and I am a   front-end developer in training! </strong>
+                        Highly motivated professional with experience in warehouse operation, now actively pursuing a career in front-end development. Studying HTML5, CSS, JavaScript and expanding knowledge in modern front-end frameworks.    
+                    </p>
+                    <p>
+                        Aside from my passion for front-end development, I enjoy playing soccer, watching movies and series, and spending quality time with my family.
+                    </p>
+                    <div class="buttons">
+                        <a target="_blank" href="src/File/IT CV Gerson Knutz.pdf" class="button outer-shadow">Check my CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-skills row">
+            <div class="skill">
+                <div class="logo">
+                    <i class="devicon devicon-javascript-plain"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>I use JavaScript to add interactivity to my web applications, implementing features like animations and real-time updates for better user engagement.</p>
+            </div>
+            <div class="skill">
+                <div class="logo">
+                    <i class="devicon devicon-html5-plain-wordmark"></i>
+                </div>
+                <h3>HTML5</h3>
+                <p> I use HTML5 to create web pages with new features like semantic tags and multimedia support, making my sites more interactive and accessible.</p>
+            </div>
+            <div class="skill">
+                <div class="logo">
+                    <i class="devicon devicon-css3-plain"></i>
+                </div>
+                <h3>CSS3</h3>
+                <p>I work with CSS3 to style my web pages, utilizing features like responsive design and animations to enhance the visual experience.</p>
+            </div>
+            <div class="skill">
+                <div class="logo">
+                    <i class="devicon devicon-github-original"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p> I use GitHub to host my projects, track issues, and collaborate with other developers, making it an essential tool for my coding work.</p>
+            </div>
+            <div class="skill">
+                <div class="logo">
+                    <i class="devicon devicon-git-plain"></i>
+                </div>
+                <h3>Git</h3>
+                <p>I use Git to track changes in my code and collaborate with others, making it easy to manage versions and resolve conflicts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-projects container">
+            <div class="project">
+                <a href="https://github.com/GersonKnutz" target="_blank">
+                    <img src="src/image/pokemon-list.png" alt="project-list-pokemon">
+                    <h3>Pokemon List</h3>
+                    <div class="project-information">
+                        <p>Dynamically fetches and displays a list of Pokémon from an external API, providing users with detailed information and images for each Pokémon.</p>
+                        <p>🔗Check on GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/GersonKnutz" target="_blank">
+                    <img src="src/image/x-men.png" alt="project-x-men">
+                    <h3>X-MEN</h3>
+                    <div class="project-information">
+                        <p>X-Men characters, complete with images and descriptions, ensuring an engaging and informative experience across all devices.</p>
+                        <p>🔗Check on GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/GersonKnutz" target="_blank">
+                    <img src="src/image/one-piece.png" alt="project-one-piece">
+                    <h3>One Piece</h3>
+                    <div class="project-information">
+                        <p>Users can explore profiles of various One Piece characters, each with detailed information and providing an immersive experience across all devices.</p>
+                        <p>🔗Check on GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/GersonKnutz" target="_blank">
+                    <img src="src/image/landing-page.png" alt="next-project">
+                    <h3>Landing page</h3>
+                    <div class="project-information">
+                        <p>The Landing Page Project is a modern web application showcasing front-end development skills, responsive design for optimal viewing on any device.</p>
+                        <p>🔗Check on GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Send me a message!</h2>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/gerson-knutz-734463172/" class="outer-shadow" title="Go to my linkedIn" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://wa.me/353832099994" class="outer-shadow" title="Send me message on WhatsApp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://github.com/GersonKnutz" class="outer-shadow" title="Go to my GitHub" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/gerson_knutz/" class="outer-shadow" title="Go to my Instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

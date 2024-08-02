@@ -1,0 +1,22 @@
+:root {
+    --primary-color: #71478f; 
+    --secondary-color: #06068a;
+    --white-color: #fff;
+    --dark-background-color: #040203;
+    --dark-gray-background-color: #282828;
+    --light-gray-background-color: #353535;
+    --project-color: #3b0e5c; 
+}
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --giant-font-size: 4.5rem;
+    --extra-large-font-size: 3rem;
+    --large-font-size: 2.4rem;
+    --normal-font-size: 1.6rem;
+}
+
+:root{
+    --mobile-padding: 30px;
+}

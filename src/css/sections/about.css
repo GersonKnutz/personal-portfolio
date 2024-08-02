@@ -1,0 +1,56 @@
+.about-me .image-about-me{
+    max-width: 40%;
+    padding: 0 15px;
+}
+
+.about-me .image-about-me .img-box{
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about-me .image-about-me img{
+    border: 10px solid transparent;
+    border-radius: 5px;
+}
+
+.about-me .information-about-me{
+    max-width: 60%;
+    padding: 0 20px;
+    align-self: center;
+}
+
+.about-me .information-about-me .buttons{
+    margin-top: 50px;
+}
+
+.about-me .information-about-me p{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+} 
+
+@media(max-width: 1280px){
+    .about-me .row{
+        justify-content: center;
+    }
+
+    .about-me .image-about-me{
+        max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 50px;
+    }
+
+    .about-me .information-about-me{
+        padding: 0 var(--mobile-padding);
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .about-me .image-about-me .inner-shadow {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+    
