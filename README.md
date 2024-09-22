@@ -5,14 +5,14 @@ Hello! I'm Gerson Knutz, an aspiring front-end developer passionate about creati
 
 ## Projects
 
-### [Project 1: Pokemon Listing](https://gersonknutz.github.io/projeto-listagem-pokemon/)
-- **Description:** A web application that displays a list of Pokémon fetched from an external API.
-- **Technologies Used:** HTML, CSS, JavaScript
+### [Project 1: Agnaldo Poste](https://gersonknutz.github.io/agnaldo-postes/)
+- **Description:** A web application showcasing the company's services provided by the owner.
+- **Technologies Used:** HTML & CSS
 - **Features:** 
   - Responsive design
-  - Detailed information and images for each Pokémon
-- **Live Demo:** [View Project](https://gersonknutz.github.io/projeto-listagem-pokemon/)
-- **Source Code:** [GitHub Repository](https://github.com/gersonknutz/projeto-listagem-pokemon)
+  - Detailed information and images about company
+- **Live Demo:** [View Project](https://gersonknutz.github.io/agnaldo-postes/)
+- **Source Code:** [GitHub Repository](https://gersonknutz.github.io/agnaldo-postes/)
 
 ### [Project 2: X-Men](https://gersonknutz.github.io/x-men-szpc/)
 - **Description:** A web page showcasing various X-Men characters with their details.
