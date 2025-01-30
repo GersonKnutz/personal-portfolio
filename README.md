@@ -1,7 +1,7 @@
 # Gerson Knutz's Front-End Development Portfolio
 
 ## Introduction
-Hello! I'm Gerson Knutz, an aspiring front-end developer passionate about creating engaging and responsive web applications. This repository contains a collection of my projects showcasing my journey in learning HTML, CSS, and JavaScript. My goal is to build user-friendly and visually appealing web experiences.
+Hello! I'm Gerson Knutz, an aspiring front-end developer passionate about creating engaging and responsive web applications. This repository contains a collection of my projects showcasing my journey in learning HTML, CSS, JavaScript and React. My goal is to build user-friendly and visually appealing web experiences.
 
 ## Projects
 
@@ -26,22 +26,22 @@ Hello! I'm Gerson Knutz, an aspiring front-end developer passionate about creati
 - **Description:** A web page dedicated to One Piece characters with their details.
 - **Technologies Used:** HTML, CSS, JavaScript
 - **Features:** 
-  - Interactive and responsive layout
+  - Interactive and responsive 
 - **Live Demo:** [View Project](https://gersonknutz.github.io/one-piece/)
 - **Source Code:** [GitHub Repository](https://github.com/gersonknutz/one-piece)
 
-### [Project 4: Landing Page](https://gersonknutz.github.io/landing-page-exercicio/)
-- **Description:** A modern and responsive landing page.
-- **Technologies Used:** HTML, CSS
+### [Project 4: JokenPô](https://gersonknutz.github.io/jokenpo/)
+- **Description:** A modern and interactive Rock, Paper, Scissors game.
+- **Technologies Used:** HTML, CSS and JavaScript
 - **Features:** 
   - Optimized for various devices
-- **Live Demo:** [View Project](https://gersonknutz.github.io/landing-page-exercicio/)
-- **Source Code:** [GitHub Repository](https://github.com/gersonknutz/landing-page-exercicio)
+- **Live Demo:** [View Project](https://gersonknutz.github.io/jokenpo/)
+- **Source Code:** [GitHub Repository](https://gersonknutz.github.io/jokenpo/)
 
 ## Skills and Tools
 - **Languages:** HTML, CSS, JavaScript
 - **Tools:** Git, GitHub, VS Code
-- **Currently Learning:** JavaScript and next wiil be ReactJS
+- **Currently Learning:** JavaScript and ReactJS
 
 ## Installation and Usage
 To run any of the projects locally:
@@ -56,7 +56,7 @@ Feel free to reach out to me for any questions or collaborations:
 - **GitHub:** [gersonknutz](https://github.com/gersonknutz)
 
 ## Continuous Learning
-I am committed to continuously improving my skills and knowledge in front-end development. Currently, I am working on JavaScript and next wiil be ReactJS to enhance my web development capabilities. Stay tuned for more projects and updates!
+I am committed to continuously improving my skills and knowledge in front-end development. Currently, I am working on JavaScript and ReactJS to enhance my web development capabilities. Stay tuned for more projects and updates!
 
 ---
 
